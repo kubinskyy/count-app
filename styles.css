@@ -1,0 +1,11 @@
+body {
+    background-image: url(images/image.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#count-el {
+    font-size: 75px;
+}
