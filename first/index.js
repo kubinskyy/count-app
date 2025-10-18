@@ -1,6 +1,6 @@
-let textEl = document.getElementById("text-end")
-let countEl = document.getElementById("count-el")
 let count = 0
+let countEl = document.getElementById("count-people")
+let lastEL = document.getElementById("last-enter")
 
 function inc() {
     count++
@@ -8,10 +8,10 @@ function inc() {
 }
 
 function save() {
-    let countStr = count + " -"
-    textEl.innerText += " " + countStr
-    countEl.innerText = 0
+    let countEv = count + " - "
+    lastEL.textContent += countEv
     count = 0
+    countEl.innerText = 0
 }
 
 

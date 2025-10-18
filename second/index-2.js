@@ -1,5 +1,6 @@
-let welcomeEL = document.getElementById("welcome-el")
-let name = "Ugur Kubinsky"
-let greeting = "Welcome to this website by"
+let buyEl = document.getElementById("error")
 
-welcomeEL.innerText = greeting + " " + name
+function buy() {
+    console.log("button clicked")
+    buyEl.innerText = "Something went wrong, please try again!"
+}
